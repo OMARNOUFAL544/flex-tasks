@@ -1,0 +1,532 @@
+/****
+
+task 1  //////////
+
+body{
+    background-color: blueviolet;
+}
+
+.flex1{
+    display: flex ;
+    background-color: blueviolet;
+}
+.flex1 div{
+    margin: 20px;
+    padding: 20px;
+    background-color:white;
+    width: 200px ;
+    height: 200px;
+}
+
+*/  
+/****   task 2  ///////////////
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .nav-links li {
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+
+*/
+
+
+
+/*    task 3  ////////////
+
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  border: 2px solid #94b9c5;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.mr-p{
+  background-color: #4d7298;
+  width: 100px;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+ */
+
+
+ /*     task 4   /////////////////
+ 
+ .main-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+div{
+  color: white;
+  font-size: 17px;
+  width: 690px;
+  height: 320px;
+  border-radius: 10px;
+  line-height: 25px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.div1{
+  background-color: #4d7298;
+  border:2px solid #90b7c3;
+}
+.div2{
+  background-color: #4d7298;
+  border:2px solid #90b7c3;
+}
+.div3{
+  background-color: #4d7298;
+  border:2px solid #90b7c3;
+}
+ */
+
+
+
+
+ /*     task 5  ///////////////
+ 
+ 
+ 
+ body{
+  height: 100vh;
+  display: flex;
+ justify-content:center;
+ align-items: center;
+   text-align: left;
+
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.main-container .row1{
+  display: flex;
+  
+}
+
+.main-container .row2{
+  display: flex;
+  
+}
+
+.main-container .row3{
+  display: flex;
+    text-align: left;
+  
+}
+
+
+.main-container div div{
+  margin: 10px;
+  background-color: #4d7298;
+  border: 3px solid #90b7c3;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 6px;
+  font-size: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ */
+
+
+ /*       task 6            ////////
+ 
+ 
+ 
+ .main-container{
+  display: flex;
+  border: gold 2px solid;
+  height: 500px;
+  width: 100%;
+  }
+  .main-container div{
+      text-align: center;
+  
+  }
+  div{
+      color: white;
+      font-size: 50px;
+      height: 55px;
+      width: 50px;
+     
+  }
+  .d1{
+     background-color: #19bc9b; 
+     align-self: baseline;
+     height: auto;
+     margin-top: 20px;
+     font-size: 15px;
+     width: 20px;
+     height: 20px;
+   
+  }
+  .d2{
+  background-color: #3498db;
+  
+  }
+  .d3{
+      background-color: #9b59b6;
+  }
+  .d4{
+    background-color: #34495e;
+      align-self: stretch;
+      height: auto;
+  }
+  .d5{
+      background-color: #e9c646;
+      align-self: center;
+      height: 15px;
+      width: 15px;
+      font-size: 15px;
+  }
+  
+  .d6{
+      background-color: #e67e22; 
+      
+  }
+  .d7{
+      background-color: #e74c3c;
+  }
+  .d8{
+     background-color: #bdc3c7; 
+  }
+  .d9{
+      background-color: #2dcb70;
+  }
+  .d10{
+     background-color: #16a085; 
+     align-self: flex-end;
+  } 
+     
+  
+  */
+
+
+
+/*         task 7     /////////////
+
+
+
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 5px solid #daa520;
+
+
+}
+div{
+    color: white;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+ 
+    
+}
+
+.d1{
+   background-color: #19bc9b; 
+
+}
+.d2{
+background-color: #3498db;
+}
+.d3{
+    background-color: #9b59b6;
+}
+.d4{
+  background-color: #34495e;
+}
+.d5{
+    background-color: #e9c646;
+}
+
+.d6{
+    background-color: #e67e22; 
+    
+}
+.d7{
+    background-color: #e74c3c;
+}
+.d8{
+   background-color: #bdc3c7; 
+}
+.d9{
+    background-color: #2dcb70;
+}
+.d10{
+   background-color: #16a085; 
+}
+   
+
+*/
+
+
+
+
+/*        task 8      ////////
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+div{
+  color: white;
+  font-size: 50px;
+  
+
+}
+.d1{
+background-color: #2ecc71;
+width: 70%;
+}
+.d2{
+  background-color: #3498db;
+width: 30%;
+}
+
+
+*/
+
+
+/*       task 9      //////////
+
+
+/* 
+.main{
+  display: flex;
+  flex-flow:row wrap;
+  border: 8px solid #daa520 ;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+
+
+
+
+
+}
+.container{
+  display: flex;
+  font-size: 50px;
+  color: white;
+  flex-wrap: wrap;
+  gap: 5px;
+  text-align: center;
+  margin: 10px;
+
+
+}
+
+.d1{
+  background-color: #19bc9b; 
+ width:450px ;
+}
+.d2{
+background-color: #3498db;
+width:450px ;
+}
+.d3{
+   background-color: #9b59b6;
+   width:450px ;
+}
+.d4{
+ background-color: #34495e;
+ width:450px ;
+}
+.d5{
+   background-color: #e9c646;
+   width:450px ;
+}
+
+.d6{
+   background-color: #e67e22; 
+   width:450px ;
+   
+}
+.d7{
+   background-color: #e74c3c;
+   width:450px ;
+}
+.d8{
+  background-color: #bdc3c7; 
+  width:450px ;
+}
+.d9{
+   background-color: #2dcb70;
+   width:450px ;
+}
+.d10{
+  background-color: #16a085; 
+  width:450px ;
+} 
+  
+
+*/ 
+
+
+
+/*     task 10 //////////
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+
+  height: 500px;
+  max-width: 100%;
+  
+}
+nav{
+display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}  
+
+nav a{
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 15px;
+  margin: 16px;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+
+}
+.inp-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 530px;
+}
+input{
+  border-radius: 15px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(238, 236, 236);
+  padding: 10px;
+ 
+}
+footer a{
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 13px;
+  margin: 16px;
+}
+.d1{
+  flex-direction: row;
+}
+button{
+  border: 0cqi;
+  background-color: rgb(224, 220, 220);
+  border-radius: 5px;
+  padding: 10px;
+  width: 140px;
+}
+  
+
+*/
+
+/*     task 11 /////////////
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div1{
+  display: flex;
+  flex-direction: row;
+
+
+
+}
+.item1{
+  background-color:#efefef;
+  width: 200px;
+  height: 120px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub{
+  background-color: rgb(190, 190, 190);
+  width: 96px;
+  margin: 2px;
+}
+.sub2{
+  background-color: rgb(190, 190, 190);
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.sub3{
+  background-color: rgb(190, 190, 190);
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  width: 96px;
+} 
+  
+*/
+
